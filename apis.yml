@@ -1,0 +1,28 @@
+aid: api360
+name: API360
+description: 'API360 is a company surfaced via the API Evangelist harvest backlog (source: new-submission)
+  and added to the network as a stub for full-pipeline profiling.'
+url: https://artifacts.apis.io/api360/apis.yml
+x-type: company
+x-source: harvest:new-submission
+x-tier: stub
+x-tier-reason: harvest
+specificationVersion: '0.20'
+created: '2026-11-08'
+modified: '2026-11-08'
+tags:
+- Company
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://api360.sa/
+- type: Documentation
+  url: https://api360.sa/marketplace
+x-submission-notes: Saudi API platform; apis.json https://api360.sa/apis.json; MCP https://mcp.api360.sa/mcp
+x-submission-probe: 2026-11-08 root 200, ctl 404, apis.json 200 (8 apis), MCP 406 (live, wants SSE accept)
+x-submitted-by: mohamed@api360.sa (submission, 2026-11-08)
